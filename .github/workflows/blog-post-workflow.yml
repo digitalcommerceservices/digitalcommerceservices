@@ -13,5 +13,5 @@ jobs:
         uses: actions/checkout@v2
       - uses: digitalcommerceservices/blog-post-workflow@v1
         with:
-          max_post_count: "10"
-          feed_list: "https://primeitsolutionusa.blogspot.com/feeds/posts/default"
+          max_post_count: "100"
+          feed_list: "https://primeitsolutionusa.blogspot.com/feeds/posts/default,https://primeitsolutionusa.wordpress.com/feed/,https://primeit.tumblr.com/rss,https://primeitsolutionusa.weebly.com/1/feed,https://www.youtube.com/feeds/videos.xml?channel_id=UCnugB1sjZmeG-YSxTP0rGRw"
