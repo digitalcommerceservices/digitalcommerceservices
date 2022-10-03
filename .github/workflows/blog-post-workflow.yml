@@ -1,5 +1,5 @@
-name: blog post workflow
-uses: actions/checkout@v2
+name: blog-post-workflow
+
 on:
   schedule: # Run workflow automatically
     - cron: '0 * * * *' # Runs every hour, on the hour
