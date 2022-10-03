@@ -14,4 +14,4 @@ jobs:
       - uses: digitalcommerceservices/blog-post-workflow@v1
         with:
           max_post_count: "10"
-          feed_list: "https://primeit.tumblr.com/rss"
+          feed_list: "https://primeitsolutionusa.blogspot.com/feeds/posts/default"
