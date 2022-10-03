@@ -11,8 +11,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Pull in dev.to posts
-      - uses: digitalcommerceservices/blog-post-workflow@master
+      - uses: digitalcommerceservices/blog-post-workflow@v1
         with:
           max_post_count: "10"
           feed_list: "https://primeitsolutionusa.blogspot.com/feeds/posts/default"
