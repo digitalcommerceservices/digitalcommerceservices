@@ -1,4 +1,3 @@
-Create blog-post-workflow.yml
 name: blog post workflow
 on:
   schedule: # Run workflow automatically
